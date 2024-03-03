@@ -47,7 +47,7 @@ void main() {
 
     Key authorKey = const Key('author');
     Key categoryKey = const Key('category');
-    Key quoteKey = const Key('quote');
+    Key quoteKey = const Key('ss');
 
     await widgetTester.pumpWidget(makeTestableWidget(const MyHomePage(title: 'Title')));
 
